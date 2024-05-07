@@ -1,4 +1,8 @@
 
+const defaultImagePath = ''
+const defaultColorScheme = ''
+const defaultStyles = {}
+const defaultContent = {}
 
 
 
@@ -68,3 +72,11 @@ const styles = {
     return styles[subdomain] || defaultStyles; // defaultStyles is a fallback if subdomain not found
   };
   
+
+
+  export {
+    getColorScheme,
+    getContent,
+    getImagePath,
+    getStyles,
+  }

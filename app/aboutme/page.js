@@ -1,13 +1,12 @@
 
 
-
 import React from 'react';
-import { useRouter } from 'next/router';
 import LandingPage from '@/components/LandingPage';
+import { headers } from 'next/headers';
 
 const IndexPage = () => {
-  const router = useRouter();
-  const { subdomain } = router.query;
+  // get subdomain
+  const subdomain = headers().get('x-forwarded-host');
 
   return (
     <div>
