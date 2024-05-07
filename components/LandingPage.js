@@ -1,7 +1,8 @@
 
 
 import React from 'react';
-import { getColorScheme, getContent, getImagePath, getStyles } from '../utils/customization';
+import { getColorScheme, getContent, getImagePath, getStyles } from '../utils/customisation';
+// import { getColorScheme, getContent, getImagePath, getStyles } from '../utils/customization';
 
 const LandingPage = ({ subdomain }) => {
   const colorScheme = getColorScheme(subdomain);
