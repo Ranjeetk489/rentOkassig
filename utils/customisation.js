@@ -42,9 +42,11 @@ const content = {
   
   // Define image paths for each subdomain
 const imagePaths = {
-    'subdomain1.example.com': '/img/subdomain1-image.jpg',
-    'subdomain2.example.com': '/img/subdomain2-image.jpg',
-    // Add more subdomains and image paths as needed
+    '/test1': 'https://plus.unsplash.com/premium_photo-1668708604243-8bf83328e1a1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    ,
+    '/test2': 'https://plus.unsplash.com/premium_photo-1669380425625-864e482ecb12?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    
+    
   };
   
   // Get image path based on the current subdomain
